@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import App from './App';
+import Index from './Index';
 
 import store from './store';
 import router from './router';
@@ -20,5 +20,5 @@ ApiService.init();
 const app = new Vue({
     router,
     store,
-    render: h => h(App)
+    render: h => h(Index)
 }).$mount('#app');

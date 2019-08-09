@@ -5,7 +5,7 @@ import {CHECK_AUTH} from "./actions.type"
 
 import {SET_AUTH, SET_ERROR, RESET_AUTH, CLEAR_ERRORS} from "../store/mutations.type";
 import {LOGIN, LOGOUT, REGISTER} from "./actions.type";
-import {PURGE_AUTH} from "../../../../examples/vue-realworld-example-app/src/store/mutations.type";
+import {PURGE_AUTH} from "../store/mutations.type";
 
 const getDefaultState = () => {
     return {

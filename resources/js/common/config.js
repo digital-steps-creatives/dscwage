@@ -1,2 +1,2 @@
-export const API_URL = 'http://localhost:8000';
+export const API_URL = 'http://paywage.test';
 export default API_URL;

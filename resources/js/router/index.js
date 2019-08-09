@@ -3,10 +3,10 @@ import VueRouter from 'vue-router';
 
 import store from '../store'
 
-import App from '../App';
+import Index from '../Index.vue';
 import Login from '../views/Login';
 import Register from '../views/Register';
-import {CHECK_AUTH} from "../../../../examples/vue-realworld-example-app/src/store/actions.type";
+import {CHECK_AUTH} from "../store/actions.type";
 
 Vue.use(VueRouter);
 
@@ -16,7 +16,7 @@ const router =  new VueRouter({
         {
             path: '/',
             name: 'home',
-            component: App,
+            component: Index,
             meta: {
                 requiresAuth: false,
                 hideForAuth: false,
