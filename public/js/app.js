@@ -44160,7 +44160,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-navbar",
-    { attrs: { toggleable: "md", type: "dark", variant: "dark" } },
+    { attrs: { toggleable: "md", type: "light", variant: "light" } },
     [
       _c("b-navbar-toggle", { attrs: { target: "nav_collapse" } }),
       _vm._v(" "),
@@ -44175,7 +44175,7 @@ var render = function() {
             alt: ""
           }
         }),
-        _vm._v("\n        Corporate web-chat\n    ")
+        _vm._v("\n        Paywage\n    ")
       ]),
       _vm._v(" "),
       _c(

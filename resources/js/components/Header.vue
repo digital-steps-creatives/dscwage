@@ -1,12 +1,12 @@
 <template>
-    <b-navbar toggleable="md" type="dark" variant="dark">
+    <b-navbar toggleable="md" type="light" variant="light">
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
         <b-navbar-brand href="#">
             <img :src="'../images/avatars/avatar.jpg'" width="30" height="30"
                  alt="" style="padding-right: 3px" class="d-inline-block align-top">
-            Corporate web-chat
+            Paywage
         </b-navbar-brand>
 
         <b-collapse is-nav id="nav_collapse">
